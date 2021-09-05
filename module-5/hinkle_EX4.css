@@ -1,0 +1,67 @@
+/*<!--Hinkle, 09/05/2021, CSD340, Assignment: 5.2 Build a Webpage Exercise, Part 4 -->*/
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#book-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+
+.grid-item {
+    border: 1px solid #A8DADC;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+h1, h3, figcaption {
+    color: rgba(69, 123, 157);
+}
+
+#bottom {
+    margin-top: 10%;
+    width: 100%;
+}
+
+#index {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#index:link {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#index:hover {
+    text-decoration: underline;
+}
