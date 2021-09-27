@@ -1,0 +1,121 @@
+/*<!--Hinkle, 09/19/2021, CSD340, Assignment: Build a Webpage Exercise, Part 5 -->*/
+
+body {
+    margin: 0%;
+    font-family: 'Oswald';
+}
+
+header {
+    background-color: #b0bfb5;
+    color: #1b3c59;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #b0bfb5;
+    border-bottom: 15px solid #f2d5bb;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #f2d5bb;
+    color: #1b3c59;
+}
+
+#container {
+    /*Add below for module-9 Assignment*/
+    margin: 2% 5% 5% 100px;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #b0bfb5;
+    /*Add below for module-9 Assignment*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*Add below for module-9 Assignment*/
+    left: 0;
+}
+
+footer span {
+    color: white;
+    font-weight: 400;
+    /*float: right;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Added below for module-9 Assignment*/
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*<!--
+    References:
+    Aligning left and right in a simple footer. (2012, October 15). Stack Overflow. https://stackoverflow.com/questions/12905143/aligning-left-and-right-in-a-simple-footer
+    HTML - Tables. (n.d.). Tutorialspoint.Com. Retrieved September 27, 2021, from https://www.tutorialspoint.com/html/html_tables.htm
+    HTML p tag. (n.d.). W3schools.Com. Retrieved September 27, 2021, from https://www.w3schools.com/tags/tag_p.asp
+    HTML Tables. (n.d.). W3schools.Com. Retrieved September 27, 2021, from https://www.w3schools.com/html/html_tables.asp
+    HTML th tag. (n.d.). W3schools.Com. Retrieved September 27, 2021, from https://www.w3schools.com/tags/tag_th.asp
+ -->*/
