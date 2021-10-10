@@ -1,0 +1,177 @@
+/*<!--Hinkle, 10/09/2021, CSD340, Assignment: Final: HTML5 Landing Page -->*/
+
+body {
+    margin: 0%;
+    font-family: 'Oswald';
+}
+
+header {
+    background-color: #b0bfb5;
+    color: #1b3c59;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    background-color: #b0bfb5;
+    border-bottom: 15px solid #f2d5bb;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #f2d5bb;
+    color: #1b3c59;
+}
+
+.hobbies {
+    text-align: center;
+}
+
+.work-experience {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #1b3c59;
+    font-weight: 400;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+
+.three-columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.hinkle {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #b0bfb5;
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #b0bfb5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1b3c59;
+    color: #b0bfb5;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+
+
+footer {
+    background-color: #b0bfb5;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*
+1000w_q95.jpg. (n.d.). [Photograph]. 1000w_q95.Jpg. https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2002/6070134/1000w_q95.jpg
+160621-A-ZZ999-900.JPG. (n.d.). [Photograph]. 160621-A-ZZ999-900.JPG. https://media.defense.gov/2016/Jul/15/2001574496/-1/-1/0/160621-A-ZZ999-900.JPG
+B. (n.d.). csd-340/module-12 at master · buwebdev/csd-340. GitHub. Retrieved October 10, 2021, from https://github.com/buwebdev/csd-340/tree/master/module-12
+Dive-story-pic.jpg. (n.d.). [Photograph]. Dive-Story-Pic.Jpg. https://filecache.mediaroom.com/mr5mr_3m/179089/Dive-story-pic.jpg
+How To Create a Card with CSS. (n.d.). Www.W3schools.Com. Retrieved October 10, 2021, from https://www.w3schools.com/howto/howto_css_cards.asp
+How To Create a Contact Form with CSS. (n.d.). Www.W3schools.Com. Retrieved October 10, 2021, from https://www.w3schools.com/howto/howto_css_contact_form.asp
+HTML Images. (n.d.). Www.W3schools.Com. Retrieved October 10, 2021, from https://www.w3schools.com/html/html_images.asp
+*/
